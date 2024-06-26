@@ -26,7 +26,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Work Sans", Arial, sans-serif;
+  font-family: "Love Ya Like A Sister", "Work Sans", Arial, sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -1291,6 +1291,15 @@ form label {
 }
 #fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus, #fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
   text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  #fh5co-testimonial figure{
+    height: 253px;
+  }
+  #fh5co-testimonial figure img{
+    height: 100%;
+  }
 }
 
 .feature-left {
