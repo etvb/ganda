@@ -257,6 +257,10 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
+.fh5co-bg img {
+  width: 103px; 
+}
+
 .fh5co-video {
   height: 450px;
   overflow: hidden;
@@ -320,6 +324,13 @@ h1, h2, h3, h4, h5, h6, figure {
   background-repeat: no-repeat;
   position: relative;
   width: 100%;
+  background-image:url(../images/jardin-rosas.jfif);
+  background-position: -25px -530px !important;
+}
+@media screen and (max-width: 768px){
+  .fh5co-cover{
+    background-position: 0 0 !important;
+  }
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -1190,7 +1201,7 @@ form label {
 }
 
 .fh5co-heading {
-  margin-bottom: 5em;
+  /* margin-bottom: 5em; */
 }
 .fh5co-heading.fh5co-heading-sm {
   margin-bottom: 2em;
@@ -1221,6 +1232,21 @@ form label {
   color: rgba(0, 0, 0, 0.4);
 }
 
+#fh5co-testimonial {
+  background-image: url(../images/vestido.jfif);
+  background-repeat: no-repeat;
+  background-position-x: center;
+}
+
+@media screen and (max-width: 768px){
+  #fh5co-testimonial {
+    background-size: cover;
+  }
+}
+
+#fh5co-testimonial .hola {
+  backdrop-filter: blur(2px);
+}
 #fh5co-testimonial .wrap-testimony {
   position: relative;
 }
@@ -1292,14 +1318,17 @@ form label {
 #fh5co-testimonial .wrap-testimony .arrow-thumb a:hover, #fh5co-testimonial .wrap-testimony .arrow-thumb a:focus, #fh5co-testimonial .wrap-testimony .arrow-thumb a:active {
   text-decoration: none;
 }
+#fh5co-testimonial figure{
+  height: 400px;
+}
 
 @media screen and (max-width: 768px) {
   #fh5co-testimonial figure{
     height: 253px;
   }
-  #fh5co-testimonial figure img{
+  /* #fh5co-testimonial figure img{
     height: 100%;
-  }
+  } */
 }
 
 .feature-left {
