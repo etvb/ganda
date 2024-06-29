@@ -257,8 +257,14 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
 }
 
-.fh5co-bg img {
-  width: 103px; 
+@media screen and (max-width: 768px){
+  .fh5co-bg h2{
+    margin: 0;
+  }
+  .fh5co-bg img {
+    width: 140px; 
+  }
+  
 }
 
 .fh5co-video {
@@ -328,6 +334,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background-position: -25px -530px !important;
 }
 @media screen and (max-width: 768px){
+
   .fh5co-cover{
     background-position: 0 0 !important;
   }
@@ -1211,7 +1218,7 @@ form label {
   margin-bottom: 10px;
   line-height: 1.5;
   font-weight: bold;
-  color: #F14E95;
+  color: black;
   font-family: "Sacramento", Arial, serif;
 }
 @media screen and (max-width: 768px) {
