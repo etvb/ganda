@@ -1330,9 +1330,9 @@ form label {
 }
 
 @media screen and (max-width: 768px) {
-  #fh5co-testimonial figure{
+  /* #fh5co-testimonial figure{
     height: 253px;
-  }
+  } */
   /* #fh5co-testimonial figure img{
     height: 100%;
   } */

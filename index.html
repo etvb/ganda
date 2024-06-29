@@ -72,14 +72,6 @@
 
 	</head>
 	<body onclick="playAudio()"> 
-		
-		<audio id="musica" autoplay loop>
-			<source src="musica/musica.mp3" type="audio/mp3" />
-			<!-- <source src="viper.ogg" type="audio/ogg" /> -->
-			<p>
-			  Su navegador no es compatible con audio HTML5. Aquí hay un
-			</p>
-		  </audio>
 
 	<div class="fh5co-loader"></div>
 	
@@ -135,6 +127,13 @@
 							<h2 style="font-family: Sacramento, Arial, serif; font-size:24px;">Miguel Ángel y Elsa Angulo</h2>
 							<!-- <div class="simply-countdown simply-countdown-one"></div> -->
 							<!-- <p><a href="#" class="btn btn-default btn-sm">Save the date</a></p> -->
+							<audio id="musica" controls autoplay loop>
+								<source src="musica/musica.mp3" type="audio/mp3" />
+								<!-- <source src="viper.ogg" type="audio/ogg" /> -->
+								<p>
+								  Su navegador no es compatible con audio HTML5. Aquí hay un
+								</p>
+							</audio>
 						</div>
 					</div>
 				</div>
@@ -459,6 +458,7 @@
 										</figure>
 										<span>John Doe, via <a href="#" class="twitter">Twitter</a></span>
 										<blockquote> -->
+											<br><br>
 											<h3 style="color:mintcream;" class="love-ya-like-a-sister-regular">Formal</h3>
 											<p style="color:mintcream; font-size:medium;">MUJERES: Favor de no usar vestido color <strong style="color:bisque;">rosa</strong> o <strong style="color:black;">negro</strong>.</p>
 										</blockquote>
@@ -657,6 +657,7 @@
 	function playAudio() {
 		document.getElementById("musica").play()
 	}
+	
 </script>
 
 	</body>
