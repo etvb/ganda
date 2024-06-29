@@ -71,14 +71,13 @@
 	<![endif]-->
 
 	</head>
-	<body>
+	<body onclick="playAudio()"> 
 		
-		<audio autoplay loop>
+		<audio id="musica" autoplay loop>
 			<source src="musica/musica.mp3" type="audio/mp3" />
 			<!-- <source src="viper.ogg" type="audio/ogg" /> -->
 			<p>
 			  Su navegador no es compatible con audio HTML5. Aquí hay un
-			  <a href="viper.mp3">enlace al audio</a> en su lugar.
 			</p>
 		  </audio>
 
@@ -654,6 +653,10 @@
          day: d.getDate(),
          enableUtc: false
     });
+
+	function playAudio() {
+		document.getElementById("musica").play()
+	}
 </script>
 
 	</body>
